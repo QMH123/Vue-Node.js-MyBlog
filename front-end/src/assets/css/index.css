@@ -1,0 +1,73 @@
+.bg{
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/background/index5.jpg);
+    background-size: 100% 100%;
+    position: fixed;
+}
+
+.bar{
+     position: fixed;
+    left: 0%;
+    top: 0%;
+    width: 10%;
+    height: 100%;
+}
+
+.nav{
+    width: 100%;
+    height: 25%;
+    text-align: center;
+    background-color: rgba(44, 44, 44, 0.5);
+     transition:  600ms;
+}
+
+.bar a{
+    text-decoration: none;
+}
+
+.icon{
+    position: relative;
+    top: 20%;
+    clear: both;
+    display: block;
+    margin: auto;
+     transition:  all 600ms;
+}
+
+
+.title{
+    position: relative;
+    top: 50px;
+    font-size: 15px;
+    text-align: center;
+    font-weight:500;
+    color: white;
+     transition:  all 600ms;
+}
+
+.nav:hover{
+    background-color: rgb(14, 107, 194,0.7);
+   cursor: pointer;
+}
+
+
+.nav:hover .icon{
+    position: relative;
+    top: 10%;
+    
+}
+
+.nav:hover .title{
+    position: relative;
+    top: 60px;
+  
+}
+
+.router{
+    position: absolute;
+    top: 0%;
+    left: 10%;
+    width: 90%;
+    height: 100%;
+}
